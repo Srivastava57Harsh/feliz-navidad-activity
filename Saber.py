@@ -4,6 +4,8 @@
 # Saber.py - Devuelve cuantos días faltan para navidad
 # Ignacio Rodríguez <nachoel01@gmail.com>
 # CeibalJAM! - Uruguay
+import gi
+gi.require_version('Gtk', '3.0')
 from datetime import date
 from gi.repository import Gtk
 from gi.repository import Gdk
@@ -25,4 +27,4 @@ def color(label):
 	else:
 		label.modify_fg(Gtk.StateType.NORMAL,Gdk.color_parse('yellow'))
 	label.show_all()
-print saber()
+print (saber())
