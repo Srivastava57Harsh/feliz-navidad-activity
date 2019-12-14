@@ -3,5 +3,5 @@ name = Feliz Navidad
 activity_version = 4
 show_launcher = 1
 bundle_id = org.ceibaljam.FelizNavidad
-exec = sugar-activity activity.Navidad -s 
+exec = sugar-activity3 activity.Navidad -s 
 icon = Icono 
